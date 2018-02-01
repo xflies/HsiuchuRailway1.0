@@ -2183,7 +2183,7 @@
       <Placemark>
         <name>隘口</name>
         <description>輕軌紅線 (v1.0b)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.037702,24.800624,0
