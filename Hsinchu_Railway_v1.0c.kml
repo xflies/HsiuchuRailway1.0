@@ -2290,7 +2290,7 @@
       <Placemark>
         <name>南六家</name>
         <description>六家貨物線通勤化 (v1.0b)</description>
-        <styleUrl>#msn_placemark_circle_green</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.041269,24.799961,0
