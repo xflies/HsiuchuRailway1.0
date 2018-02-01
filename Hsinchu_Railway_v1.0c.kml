@@ -49,35 +49,35 @@
 	</StyleMap>
 	<Style id="sh_placemark_circle_highlight_green">
 		<IconStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<scale>0.6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<scale>0.5</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_green">
 		<IconStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<scale>0.6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<scale>0.5</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ff009900</color>
+			<color>ff0099ff</color>
 			<width>2</width>
 		</LineStyle>
 	</Style>
