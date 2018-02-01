@@ -3,6 +3,50 @@
   <Document>
     <name>新竹鐵道計畫 (v1.0c)</name>
     <description><![CDATA[A列車9 <br>新竹鐵道計畫 v1.0c]]></description>
+	<Style id="sh_placemark_circle_highlight_red">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle_red">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle_red">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle_red</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight_red</styleUrl>
+		</Pair>
+	</StyleMap>
     <Style id="icon-103-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -1984,7 +2028,7 @@
       <Placemark>
         <name>糠榔</name>
         <description><![CDATA[輕軌紅線 <br><br>站外轉乘：<br>新竹環狀線，高架車站，V1.0 限定]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.94696,24.834375,0
@@ -1994,7 +2038,7 @@
       <Placemark>
         <name>苦苓腳</name>
         <description>輕軌紅線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.95713,24.827639,0
@@ -2004,7 +2048,7 @@
       <Placemark>
         <name>樹林頭 (紅線)</name>
         <description><![CDATA[輕軌紅線 (R1)<br><br>V1.0為高架車站<br>站外轉乘：<br>新竹機場線]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.960846,24.820588,0
@@ -2014,7 +2058,7 @@
       <Placemark>
         <name>水田 (北門國小)</name>
         <description><![CDATA[輕軌紅線 (R3)<br><br>V1.0為高架車站<br>站外轉乘：<br>輕軌綠線 (G14) 平面車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.967453,24.813927,0
@@ -2024,7 +2068,7 @@
       <Placemark>
         <name>東門</name>
         <description>輕軌紅線 (R4)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.972153,24.808084,0
@@ -2034,7 +2078,7 @@
       <Placemark>
         <name>新竹車站</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌紅線 (R5)<br><br>高架車站<br>站外轉乘：<br>新竹火車站<br>客運總站<br><br><img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" />]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M</value>
@@ -2049,7 +2093,7 @@
       <Placemark>
         <name>新竹公園</name>
         <description><![CDATA[輕軌紅線 (R6)<br><br>V1.0為高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.979514,24.799104,0
@@ -2059,7 +2103,7 @@
       <Placemark>
         <name>東勢</name>
         <description><![CDATA[輕軌紅線 (R8)<br><br>V1.0為高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.985351,24.80485,0
@@ -2069,7 +2113,7 @@
       <Placemark>
         <name>馬偕醫院</name>
         <description><![CDATA[輕軌紅線 (R9)<br><br>V1.0為高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             120.99153,24.799474,0
@@ -2079,7 +2123,7 @@
       <Placemark>
         <name>金城</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌紅線 (R11)<br><br>V1.0為高架車站<br><br>站外轉乘：<br>國道客運巴士]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M</value>
@@ -2094,7 +2138,7 @@
       <Placemark>
         <name>龍山</name>
         <description><![CDATA[輕軌紅線 (R12)<br><br>V1.0為高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.009041,24.78767,0
@@ -2104,7 +2148,7 @@
       <Placemark>
         <name>關東橋</name>
         <description><![CDATA[輕軌紅線 (R14)<br><br>V1.0為高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.0215,24.781689,0
@@ -2112,9 +2156,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>台鐵竹中站</name>
+        <name>竹中 (紅線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌紅線 (R16)<br><br>高架車站<br>站外轉乘：<br>竹中車站<br>新竹環狀線]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2129,7 +2173,7 @@
       <Placemark>
         <name>麻園肚車站</name>
         <description><![CDATA[輕軌紅線<br><br>高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.03492,24.788937,0
@@ -2139,7 +2183,7 @@
       <Placemark>
         <name>隘口</name>
         <description>輕軌紅線 (v1.0b)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
             121.037702,24.800624,0
@@ -2149,7 +2193,7 @@
       <Placemark>
         <name>六家 (紅線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌紅線<br><br>高架車站<br>轉乘：<br>六家車站<br>新竹環狀線<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4</value>
