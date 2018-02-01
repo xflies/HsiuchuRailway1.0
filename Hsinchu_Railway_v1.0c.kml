@@ -47,6 +47,94 @@
 			<styleUrl>#sh_placemark_circle_highlight_red</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_placemark_circle_highlight_green">
+		<IconStyle>
+			<color>ff009900</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff009900</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff009900</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle_green">
+		<IconStyle>
+			<color>ff009900</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff009900</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff009900</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle_green">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle_green</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight_green</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_placemark_circle_highlight_blue">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle_blue">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle_blue">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle_blue</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight_blue</styleUrl>
+		</Pair>
+	</StyleMap>
     <Style id="icon-103-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -2246,7 +2334,7 @@
       <Placemark>
         <name>高鐵新竹站</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" /><br><br>輕軌綠線 (G4)<br>v1.0b 為地下站<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>六家車站<br>輕軌紅線<br>新竹環狀線<br><br><img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" />]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4 https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2261,7 +2349,7 @@
       <Placemark>
         <name>十興</name>
         <description><![CDATA[輕軌綠線 (G5)<br><br>註：維基百科上此站稱蔴園，<br>源自昔日新竹郡六家庄十興大字麻園小字，<br>但容易與新竹環狀線的麻園站混淆。]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             121.031098,24.816809,0
@@ -2271,7 +2359,7 @@
       <Placemark>
         <name>竹北巨蛋</name>
         <description>輕軌綠線 (G7)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             121.022514,24.821913,0
@@ -2281,7 +2369,7 @@
       <Placemark>
         <name>縣政府</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌綠線 (G8)<br><br>站外轉乘：<br>新竹縣客運轉運站，V1.0限定]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M</value>
@@ -2295,7 +2383,7 @@
       </Placemark>
       <Placemark>
         <name>下斗崙 (綠線)</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             121.003697,24.83013,0
@@ -2305,7 +2393,7 @@
       <Placemark>
         <name>新崙里</name>
         <description>輕軌綠線 (v1.0b)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.998933,24.828494,0
@@ -2315,7 +2403,7 @@
       <Placemark>
         <name>溪埔</name>
         <description>輕軌綠線 (G11)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.989792,24.817492,0
@@ -2325,7 +2413,7 @@
       <Placemark>
         <name>姜寮 (綠線)</name>
         <description><![CDATA[輕軌綠線 (G12)<br>舊版作「羗寮」<br>V1.0為地下車站<br>轉乘：<br>新竹機場線]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.979621,24.814706,0
@@ -2335,7 +2423,7 @@
       <Placemark>
         <name>水田 (綠線)</name>
         <description><![CDATA[輕軌綠線 (G14)<br><br>轉乘：<br>輕軌紅線 (R3)，高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.966361,24.813245,0
@@ -2345,7 +2433,7 @@
       <Placemark>
         <name>崙子 (民富國小)</name>
         <description>輕軌綠線 (G15)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.959969,24.809126,0
@@ -2355,7 +2443,7 @@
       <Placemark>
         <name>客雅</name>
         <description>輕軌綠線 (G16)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.955696,24.804773,0
@@ -2365,7 +2453,7 @@
       <Placemark>
         <name>茄苳大道</name>
         <description>輕軌綠線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.948875,24.787006,0
@@ -2375,7 +2463,7 @@
       <Placemark>
         <name>頂牛埔 (綠線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌綠線 (G17)<br>舊版作「頂埔」<br>高架車站<br>站外轉乘：<br>縱貫線<br>新竹環狀線]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2390,7 +2478,7 @@
       <Placemark>
         <name>御史崎</name>
         <description><![CDATA[輕軌綠線<br><br>註：本站原先以路名命名為「客雅大道」，<br>附近傳統地名為「牛屎崎」，後雅稱為<br>「御史崎」。]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.962863,24.784007,0
@@ -2400,7 +2488,7 @@
       <Placemark>
         <name>青草湖</name>
         <description><![CDATA[輕軌綠線<br><br>端點站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             120.967072,24.774723,0
@@ -2677,7 +2765,7 @@
       <Placemark>
         <name>南六家</name>
         <description>六家貨物線通勤化 (v1.0b)</description>
-        <styleUrl>#msn_placemark_circle_red</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
             121.041269,24.799961,0
