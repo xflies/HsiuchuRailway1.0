@@ -135,6 +135,50 @@
 			<styleUrl>#sh_placemark_circle_highlight_blue</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_placemark_circle_highlight_purple">
+		<IconStyle>
+			<color>ffcc0066</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffcc0066</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffcc0066</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle_purple">
+		<IconStyle>
+			<color>ffcc0066</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffcc0066</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffcc0066</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle_purple">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle_purple</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight_purple</styleUrl>
+		</Pair>
+	</StyleMap>
     <Style id="icon-103-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -2057,7 +2101,7 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>新竹機場</name>
+        <name>新竹國際機場</name>
         <description><![CDATA[新竹機場線<br><br>端點站<br>轉乘：<br>新竹環狀線，地下車站，V1.0 限定]]></description>
         <styleUrl>#icon-1899-DB4436</styleUrl>
         <Point>
@@ -2508,7 +2552,7 @@
       <Placemark>
         <name>頂埔 (環狀線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br>舊版作「頂埔」<br>轉乘：<br>縱貫線<br>站外轉乘：<br>輕軌綠線 (G17)，高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2523,7 +2567,7 @@
       <Placemark>
         <name>新竹教育大學</name>
         <description><![CDATA[新竹環狀線<br><br>高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.965195,24.791605,0
@@ -2533,7 +2577,7 @@
       <Placemark>
         <name>仙宮</name>
         <description><![CDATA[新竹環狀線<br><br>地下車站，設於古奇峰隧道內]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.989296,24.785372,0
@@ -2543,7 +2587,7 @@
       <Placemark>
         <name>新竹科學園區</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>新竹環狀線<br><br>站外轉乘：<br>國道客運巴士]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M</value>
@@ -2567,7 +2611,7 @@
       <Placemark>
         <name>金山街</name>
         <description>新竹環狀線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             121.023888,24.77529,0
@@ -2577,7 +2621,7 @@
       <Placemark>
         <name>竹中</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br><br>高架車站<br>站外轉乘：<br>竹中車站<br>輕軌紅線 (R16)]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2592,7 +2636,7 @@
       <Placemark>
         <name>六家 (環狀線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br><br>轉乘：<br>六家車站<br>輕軌紅線<br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4</value>
@@ -2607,7 +2651,7 @@
       <Placemark>
         <name>安溪寮</name>
         <description>新竹環狀線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             121.033844,24.826645,0
@@ -2617,7 +2661,7 @@
       <Placemark>
         <name>水壠</name>
         <description><![CDATA[新竹環狀線<br><br>V1.0 為地下車站<br><br>註：附近公車站牌作「水瓏」，<br>然而經查傳統地名實為「水壠」。]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             121.022835,24.834297,0
@@ -2627,7 +2671,7 @@
       <Placemark>
         <name>竹北 (環狀線)</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br><br>地下車站<br>轉乘：<br>縱貫線]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2642,7 +2686,7 @@
       <Placemark>
         <name>新社尾</name>
         <description>新竹環狀線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.996056,24.845222,0
@@ -2652,7 +2696,7 @@
       <Placemark>
         <name>麻園</name>
         <description>新竹環狀線</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.975006,24.8468,0
@@ -2662,7 +2706,7 @@
       <Placemark>
         <name>舊港</name>
         <description><![CDATA[新竹環狀線<br><br>註：本站位於竹北市白地里(舊名白地粉)，<br>公路客運站牌作許厝，<br>附近傳統地名為新庄子，<br>距離今新竹市北區舊港里約1.2km，<br>然而過去皆隸屬於新竹郡舊港庄。]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.956512,24.847189,0
@@ -2672,7 +2716,7 @@
       <Placemark>
         <name>糠榔 (環狀線)</name>
         <description><![CDATA[新竹環狀線<br><br>v1.0 限定<br>高架車站]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.945568,24.83348,0
@@ -2680,9 +2724,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>新竹機場 (環狀線)</name>
+        <name>新竹國際機場 (環狀線)</name>
         <description><![CDATA[新竹環狀線<br><br>地下車站<br>v1.0 限定]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.944624,24.815602,0
@@ -2692,7 +2736,7 @@
       <Placemark>
         <name>南勢</name>
         <description><![CDATA[新竹環狀線<br><br>v1.0 限定]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
             120.944452,24.804695,0
