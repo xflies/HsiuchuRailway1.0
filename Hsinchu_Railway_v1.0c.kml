@@ -88,7 +88,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#msn_placemark_circle_green</styleUrl>
+			<styleUrl>#sh_placemark_circle_highlight_green</styleUrl>
 		</Pair>
 	</StyleMap>
     <Style id="icon-103-normal">
