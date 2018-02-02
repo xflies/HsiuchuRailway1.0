@@ -311,6 +311,50 @@
 			<styleUrl>#sh_placemark_circle_highlight_cyan</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_placemark_circle_square_red">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_square_red">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_square_red">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_square_red</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_square_red</styleUrl>
+		</Pair>
+	</StyleMap>
     <Style id="icon-103-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -486,7 +530,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -502,7 +546,7 @@
         <color>ff3644db</color>
         <scale>1</scale>
         <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
         </Icon>
         <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
       </IconStyle>
@@ -2086,7 +2130,7 @@
       <Placemark>
         <name>台鐵新竹貨場</name>
         <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線貨運站<br>位於北新竹車站南側]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2130,7 +2174,7 @@
       </Placemark>
       <Placemark>
         <name>慈雲貨物站</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             121.017537,24.799669,0
@@ -2170,7 +2214,7 @@
       <Placemark>
         <name>竹中貨物站</name>
         <description>內灣線 (v1.0c)</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             121.0348102,24.7816397,0
@@ -2684,7 +2728,7 @@
       <Placemark>
         <name>竹科貨運站</name>
         <description>竹科貨物線 貨運站</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             121.028652,24.773487,0
@@ -2743,7 +2787,7 @@
       </Placemark>
       <Placemark>
         <name>平埔頂調車場</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             121.011325,24.775925,0
@@ -2961,7 +3005,7 @@
       <Placemark>
         <name>六家貨物站</name>
         <description><![CDATA[六家貨物線<br>v1.0b]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             121.039617,24.804782,0
@@ -2971,7 +3015,7 @@
       <Placemark>
         <name>頂埔貨物站</name>
         <description>v1.0b</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             120.949109,24.794585,0
@@ -2981,7 +3025,7 @@
       <Placemark>
         <name>新竹國際機場貨物站</name>
         <description>v1.0b</description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
+        <styleUrl>#msn_placemark_square_red</styleUrl>
         <Point>
           <coordinates>
             120.946341,24.812914,0
