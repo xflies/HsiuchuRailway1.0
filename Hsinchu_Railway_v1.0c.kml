@@ -267,6 +267,50 @@
 			<styleUrl>#sh_placemark_circle_highlight_pink</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_placemark_circle_highlight_cyan">
+		<IconStyle>
+			<color>ffcca90b</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffcca90b</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffcca90b</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_placemark_circle_cyan">
+		<IconStyle>
+			<color>ffcca90b</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffcca90b</color>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ffcca90b</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_placemark_circle_cyan">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_placemark_circle_cyan</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_placemark_circle_highlight_cyan</styleUrl>
+		</Pair>
+	</StyleMap>
     <Style id="icon-103-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -333,7 +377,7 @@
     </StyleMap>
     <Style id="icon-1423-normal">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.6</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
         </Icon>
@@ -344,7 +388,7 @@
     </Style>
     <Style id="icon-1423-highlight">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.75</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
         </Icon>
@@ -365,7 +409,7 @@
     </StyleMap>
     <Style id="icon-1423-nodesc-normal">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.6</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
         </Icon>
@@ -379,7 +423,7 @@
     </Style>
     <Style id="icon-1423-nodesc-highlight">
       <IconStyle>
-        <scale>1.1</scale>
+        <scale>0.75</scale>
         <Icon>
           <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
         </Icon>
@@ -3029,7 +3073,7 @@
       <Placemark>
         <name>新竹BRT一號線</name>
         <description><![CDATA[v1.0b<br>博愛國中 -- 麻園 (專用道)<br>麻園 -- 鳳岡 (一般道路)]]></description>
-        <styleUrl>#line-0BA9CC-2000</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3067,7 +3111,7 @@
       </Placemark>
       <Placemark>
         <name>BRT博愛國中站</name>
-        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             121.006722,24.829098,0
@@ -3077,7 +3121,7 @@
       <Placemark>
         <name>BRT下斗崙站</name>
         <description>轉乘：縱貫線 下斗崙站</description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             121.003632,24.831201,0
@@ -3086,7 +3130,7 @@
       </Placemark>
       <Placemark>
         <name>BRT社崙橋站</name>
-        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.99844,24.834298,0
@@ -3095,7 +3139,7 @@
       </Placemark>
       <Placemark>
         <name>BRT竹北夜市站</name>
-        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.994958,24.83808,0
@@ -3104,7 +3148,7 @@
       </Placemark>
       <Placemark>
         <name>BRT馬麟厝站</name>
-        <styleUrl>#icon-1423-nodesc</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.9880752,24.8403633,0
@@ -3114,7 +3158,7 @@
       <Placemark>
         <name>BRT聯興站</name>
         <description><![CDATA[v1.0c新增<br>里名]]></description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.9823567,24.8405481,0
@@ -3124,7 +3168,7 @@
       <Placemark>
         <name>BRT麻園站</name>
         <description>轉乘：新竹環狀線 麻園站</description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.975094,24.845825,0
@@ -3134,7 +3178,7 @@
       <Placemark>
         <name>BRT白地調度站</name>
         <description>v1.0c新增</description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.963035,24.85007,0
@@ -3144,7 +3188,7 @@
       <Placemark>
         <name>BRT縣政府站</name>
         <description>v1.0c 延伸至此站</description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             121.014179,24.8248041,0
@@ -3154,7 +3198,7 @@
       <Placemark>
         <name>BRT溪洲站</name>
         <description>v4.0新增</description>
-        <styleUrl>#icon-1423</styleUrl>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
             120.977701,24.8407919,0
