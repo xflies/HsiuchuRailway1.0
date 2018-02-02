@@ -2553,6 +2553,16 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>田心庄 (金華商圈)</name>
+        <description><![CDATA[軌輕綠線 (v1.0b)<br><br>附近傳統地名為「田心仔」或「田心庄」。]]></description>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
+        <Point>
+          <coordinates>
+            120.973592,24.814453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>水田 (綠線)</name>
         <description><![CDATA[輕軌綠線 (G14)<br><br>轉乘：<br>輕軌紅線 (R3)，高架車站]]></description>
         <styleUrl>#msn_placemark_circle_green</styleUrl>
@@ -2911,16 +2921,6 @@
         <Point>
           <coordinates>
             121.039617,24.804782,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>田心庄 (金華商圈)</name>
-        <description><![CDATA[軌輕綠線 (v1.0b)<br><br>附近傳統地名為「田心仔」或「田心庄」。]]></description>
-        <styleUrl>#icon-1899-DB4436</styleUrl>
-        <Point>
-          <coordinates>
-            120.973592,24.814453,0
           </coordinates>
         </Point>
       </Placemark>
