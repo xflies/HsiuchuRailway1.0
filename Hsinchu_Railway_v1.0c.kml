@@ -61,7 +61,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ff009900</color>
-			<width>2</width>
+			<width>7.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_green">
@@ -78,7 +78,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ff009900</color>
-			<width>2</width>
+			<width>5</width>
 		</LineStyle>
 	</Style>
 	<StyleMap id="msn_placemark_circle_green">
@@ -1826,15 +1826,7 @@
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
-            121.064598,24.789459,0
-            121.060478,24.79133,0
-            121.057472,24.79409,0
-            121.053093,24.799391,0
-            121.049141,24.80617,0
-            121.048103,24.80769,0
-            121.045036,24.80987,0
-            121.043663,24.810301,0
-            121.041367,24.810221,0
+            121.040329,24.810221,0
             121.039047,24.810711,0
             121.034798,24.81291,0
             121.031967,24.81554,0
@@ -1994,9 +1986,9 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>高鐵新竹基地</name>
+        <name>六家機廠</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" /><br><br>台灣高鐵新竹（六家）基地<br>佔地約7公煩<br><br>V1.0大部份在地圖外，<br>其用地改為資材工廠<br>v1.0b改為輕軌綠線的六家機廠]]></description>
-        <styleUrl>#line-FF6600-5000</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4</value>
@@ -2533,26 +2525,7 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>下田洋機廠</name>
-        <description><![CDATA[輕軌綠線 機廠<br><br>V1.0 位於地圖之外<br>v1.0b 取消]]></description>
-        <styleUrl>#poly-009900-3000-115</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                121.060463,24.79174,0
-                121.060471,24.789091,0
-                121.063934,24.789053,0
-                121.06395,24.791702,0
-                121.060463,24.79174,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>高鐵新竹站</name>
+        <name>高鐵新竹站 (綠線)</name>
         <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" /><br><br>輕軌綠線 (G4)<br>v1.0b 為地下站<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>六家車站<br>輕軌紅線<br>新竹環狀線<br><br><img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
