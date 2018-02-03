@@ -225,35 +225,35 @@
 	</StyleMap>
 	<Style id="sh_placemark_circle_highlight_pink">
 		<IconStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<scale>0.6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<scale>0.5</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<width>7.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_pink">
 		<IconStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<scale>0.6</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<scale>0.5</scale>
 		</LabelStyle>
 		<LineStyle>
-			<color>ffffc8ff</color>
+			<color>ffefa8ef</color>
 			<width>5</width>
 		</LineStyle>
 	</Style>
