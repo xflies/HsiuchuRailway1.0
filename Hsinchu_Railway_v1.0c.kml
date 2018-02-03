@@ -272,7 +272,7 @@
 			<color>ffcca90b</color>
 			<scale>0.6</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/capital_small_highlight.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
@@ -289,7 +289,7 @@
 			<color>ffcca90b</color>
 			<scale>0.6</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/capital_small.png</href>
 			</Icon>
 		</IconStyle>
 		<LabelStyle>
