@@ -17,7 +17,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ff0000ff</color>
-			<width>2</width>
+			<width>7.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_red">
@@ -34,7 +34,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ff0000ff</color>
-			<width>2</width>
+			<width>5</width>
 		</LineStyle>
 	</Style>
 	<StyleMap id="msn_placemark_circle_red">
@@ -105,7 +105,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ffff0000</color>
-			<width>2</width>
+			<width>7.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_blue">
@@ -122,7 +122,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ffff0000</color>
-			<width>2</width>
+			<width>5</width>
 		</LineStyle>
 	</Style>
 	<StyleMap id="msn_placemark_circle_blue">
@@ -149,7 +149,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ffcc0066</color>
-			<width>2</width>
+			<width>7.5</width>
 		</LineStyle>
 	</Style>
 	<Style id="sn_placemark_circle_purple">
@@ -166,7 +166,7 @@
 		</LabelStyle>
 		<LineStyle>
 			<color>ffcc0066</color>
-			<width>2</width>
+			<width>5</width>
 		</LineStyle>
 	</Style>
 	<StyleMap id="msn_placemark_circle_purple">
@@ -419,154 +419,6 @@
         <styleUrl>#icon-1195-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1423-normal">
-      <IconStyle>
-        <scale>0.6</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1423-highlight">
-      <IconStyle>
-        <scale>0.75</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1423">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1423-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1423-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1423-nodesc-normal">
-      <IconStyle>
-        <scale>0.6</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1423-nodesc-highlight">
-      <IconStyle>
-        <scale>0.75</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/1423-trans-bus.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1423-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1423-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1423-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-DB4436-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-DB4436-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-DB4436">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-1899-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-1899-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1</scale>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_square.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-1899-DB4436-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-191-normal">
       <IconStyle>
         <scale>1.1</scale>
@@ -599,396 +451,6 @@
         <styleUrl>#icon-191-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-503-000000-nodesc-normal">
-      <IconStyle>
-        <color>ff000000</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-503-000000-nodesc-highlight">
-      <IconStyle>
-        <color>ff000000</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-503-000000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-000000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-000000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-009D57-nodesc-normal">
-      <IconStyle>
-        <color>ff579d00</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-503-009D57-nodesc-highlight">
-      <IconStyle>
-        <color>ff579d00</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-503-009D57-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-009D57-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-009D57-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-4186F0-normal">
-      <IconStyle>
-        <color>fff08641</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-503-4186F0-highlight">
-      <IconStyle>
-        <color>fff08641</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-503-4186F0">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-4186F0-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-4186F0-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-4186F0-nodesc-normal">
-      <IconStyle>
-        <color>fff08641</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-503-4186F0-nodesc-highlight">
-      <IconStyle>
-        <color>fff08641</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-503-4186F0-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-4186F0-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-4186F0-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-C6A4CF-normal">
-      <IconStyle>
-        <color>ffcfa4c6</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-503-C6A4CF-highlight">
-      <IconStyle>
-        <color>ffcfa4c6</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-503-C6A4CF">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-C6A4CF-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-C6A4CF-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-DB4436-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-503-DB4436-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-503-DB4436">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-DB4436-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-503-F8971B-normal">
-      <IconStyle>
-        <color>ff1b97f8</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-503-F8971B-highlight">
-      <IconStyle>
-        <color>ff1b97f8</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-503-F8971B">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-503-F8971B-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-503-F8971B-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-959-DB4436-nodesc-normal">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-959-DB4436-nodesc-highlight">
-      <IconStyle>
-        <color>ff3644db</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-959-DB4436-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-959-DB4436-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-959-DB4436-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-960-7C3592-nodesc-normal">
-      <IconStyle>
-        <color>ff92357c</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-960-7C3592-nodesc-highlight">
-      <IconStyle>
-        <color>ff92357c</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-960-7C3592-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-960-7C3592-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-960-7C3592-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="icon-961-009D57-nodesc-normal">
-      <IconStyle>
-        <color>ff579d00</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="icon-961-009D57-nodesc-highlight">
-      <IconStyle>
-        <color>ff579d00</color>
-        <scale>1.1</scale>
-        <Icon>
-          <href>http://www.gstatic.com/mapspro/images/stock/961-wht-square-blank.png</href>
-        </Icon>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1.1</scale>
-      </LabelStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="icon-961-009D57-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-961-009D57-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-961-009D57-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-000000-1000-nodesc-normal">
       <LineStyle>
         <color>ff000000</color>
@@ -1017,34 +479,6 @@
         <styleUrl>#line-000000-1000-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="line-000000-2000-nodesc-normal">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>2</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-000000-2000-nodesc-highlight">
-      <LineStyle>
-        <color>ff000000</color>
-        <width>3</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-000000-2000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-000000-2000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-000000-2000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="line-000000-5000-nodesc-normal">
       <LineStyle>
         <color>ff000000</color>
@@ -1071,310 +505,6 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#line-000000-5000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0000FF-3000-normal">
-      <LineStyle>
-        <color>ffff0000</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0000FF-3000-highlight">
-      <LineStyle>
-        <color>ffff0000</color>
-        <width>4.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0000FF-3000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0000FF-3000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0000FF-3000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0000FF-5000-normal">
-      <LineStyle>
-        <color>ffff0000</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0000FF-5000-highlight">
-      <LineStyle>
-        <color>ffff0000</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0000FF-5000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0000FF-5000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-009900-5000-normal">
-      <LineStyle>
-        <color>ff009900</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-009900-5000-highlight">
-      <LineStyle>
-        <color>ff009900</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-009900-5000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-009900-5000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-009900-5000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-009D57-2000-nodesc-normal">
-      <LineStyle>
-        <color>ff579d00</color>
-        <width>2</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-009D57-2000-nodesc-highlight">
-      <LineStyle>
-        <color>ff579d00</color>
-        <width>3</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-009D57-2000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-009D57-2000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-009D57-2000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-0BA9CC-2000-normal">
-      <LineStyle>
-        <color>ffcca90b</color>
-        <width>2</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-0BA9CC-2000-highlight">
-      <LineStyle>
-        <color>ffcca90b</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-0BA9CC-2000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-0BA9CC-2000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-0BA9CC-2000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-62AF44-4000-normal">
-      <LineStyle>
-        <color>ff44af62</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-62AF44-4000-highlight">
-      <LineStyle>
-        <color>ff44af62</color>
-        <width>6</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-62AF44-4000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-62AF44-4000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-62AF44-4000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-6600CC-5000-normal">
-      <LineStyle>
-        <color>ffcc0066</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-6600CC-5000-highlight">
-      <LineStyle>
-        <color>ffcc0066</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-6600CC-5000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-6600CC-5000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-6600CC-5000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-C6A4CF-2000-normal">
-      <LineStyle>
-        <color>ffcfa4c6</color>
-        <width>2</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-C6A4CF-2000-highlight">
-      <LineStyle>
-        <color>ffcfa4c6</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-C6A4CF-2000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-C6A4CF-2000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-C6A4CF-2000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-DB4436-2000-normal">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>2</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-DB4436-2000-highlight">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>3</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-DB4436-2000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-DB4436-2000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-DB4436-2000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-DB4436-2000-nodesc-normal">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>2</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-DB4436-2000-nodesc-highlight">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>3</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-DB4436-2000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-DB4436-2000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-DB4436-2000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-F8971B-2000-nodesc-normal">
-      <LineStyle>
-        <color>ff1b97f8</color>
-        <width>2</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="line-F8971B-2000-nodesc-highlight">
-      <LineStyle>
-        <color>ff1b97f8</color>
-        <width>3</width>
-      </LineStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="line-F8971B-2000-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-F8971B-2000-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-F8971B-2000-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-FF0000-5000-normal">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-FF0000-5000-highlight">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-FF0000-5000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF0000-5000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF0000-5000-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Style id="line-FF6600-5000-normal">
-      <LineStyle>
-        <color>ff0066ff</color>
-        <width>5</width>
-      </LineStyle>
-    </Style>
-    <Style id="line-FF6600-5000-highlight">
-      <LineStyle>
-        <color>ff0066ff</color>
-        <width>7.5</width>
-      </LineStyle>
-    </Style>
-    <StyleMap id="line-FF6600-5000">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#line-FF6600-5000-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#line-FF6600-5000-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="poly-0000FF-3000-115-normal">
@@ -1581,38 +711,6 @@
         <styleUrl>#poly-4186F0-2000-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-DB4436-2000-77-normal">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d3644db</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <Style id="poly-DB4436-2000-77-highlight">
-      <LineStyle>
-        <color>ff3644db</color>
-        <width>3</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d3644db</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-    </Style>
-    <StyleMap id="poly-DB4436-2000-77">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-DB4436-2000-77-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-DB4436-2000-77-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="poly-FF0000-3000-115-normal">
       <LineStyle>
         <color>ff0000ff</color>
@@ -1740,7 +838,7 @@
       <Placemark>
         <name>縱貫線捷運化新竹段</name>
         <description><![CDATA[新豐 - 竹南<br>將現實存在的縱貫線鐵路新竹段捷運化。<br>V1.0 新竹-北新竹間為四線，實施<br>內灣線．機場線和縱貫線分離。其餘路段<br>是否多線化尚待評估。]]></description>
-        <styleUrl>#line-0000FF-5000</styleUrl>
+        <styleUrl>#msn_placemark_circle_blue</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1765,7 +863,7 @@
       <Placemark>
         <name>輕軌紅線</name>
         <description><![CDATA[南寮漁港 - 六家<br>前身為遭交通部退回的輕軌紅線 (http://web.hsinchu.gov.tw/uploaddowndoc?file=/pubhsinchu/Activities/%E7%AB%B9%E7%AB%B9%E8%8B%97%E8%BC%95%E8%BB%8C%E5%9C%B0%E6%96%B9%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1%2897%2E10%2E3%29%2Epdf&flag=doc)(竹中-樹林頭)，<br>現將其兩端分別延伸到南寮漁港及六家。<br>名為輕軌，但規格、軌距與台鐵相容，<br>與六家線共用六家車站。<br>V1.0 樹林頭以東路線全面高架。<br>v1.0b 六家--槺榔全面高架]]></description>
-        <styleUrl>#line-FF0000-5000</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1822,7 +920,7 @@
       <Placemark>
         <name>輕軌綠線</name>
         <description><![CDATA[東海國際村 - 青草湖<br>前身為遭交通部退件的輕軌綠線 (http://web.hsinchu.gov.tw/uploaddowndoc?file=/pubhsinchu/Activities/%E7%AB%B9%E7%AB%B9%E8%8B%97%E8%BC%95%E8%BB%8C%E5%9C%B0%E6%96%B9%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1%2897%2E10%2E3%29%2Epdf&flag=doc)(東海國際村-竹南)，<br>但南半段與縱貫線太過重疊，<br>將其改為延茄苳景觀大道、客雅大道到青草湖。<br>V1.0 將羗寮改為地下車站<br>v1.0b 六家改為地下站並可向南連接六家機廠及六家貨物線]]></description>
-        <styleUrl>#line-009900-5000</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1880,7 +978,7 @@
       <Placemark>
         <name>新竹環狀線</name>
         <description><![CDATA[前身為竹科貨物線預留通勤化的可能，<br>與六家線組合昇級為新竹環狀線。<br>南環段：竹中 - (經竹科) - 南寮<br>北環段：南寮 - (經竹北) - 六家<br><br>V1.0 西側路線改為沿地圖邊緣經糠榔、新竹機場<br>、南勢三站]]></description>
-        <styleUrl>#line-6600CC-5000</styleUrl>
+        <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -1956,8 +1054,8 @@
       </Placemark>
       <Placemark>
         <name>聯絡線</name>
-        <description>使內灣線及縱貫線南下列車可進入新竹機場線</description>
-        <styleUrl>#line-0000FF-3000</styleUrl>
+        <description>使縱貫線南下列車可進入新竹機場線</description>
+        <styleUrl>#msn_placemark_circle_blue</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -2066,7 +1164,7 @@
       </Placemark>
       <Placemark>
         <name>北新竹火車站</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線<br>內灣線<br>六家線<br>新竹機場線]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線<br>內灣線<br>六家線<br>新竹機場線<br><br>站外轉乘：<br>公車總站 (北站)]]></description>
         <styleUrl>#msn_placemark_circle_blue</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2081,7 +1179,7 @@
       </Placemark>
       <Placemark>
         <name>新竹火車站</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線<br>內灣線<br>六家線<br>新竹機場線<br><br>站外轉乘：<br>輕軌紅線 (R5)，高架車站<br>客運總站<br><br><img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線<br>內灣線<br>六家線<br>新竹機場線<br><br>站外轉乘：<br>輕軌紅線 (R5)，高架車站<br>公車總站 (南站、後站)<br><br><img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_blue</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2115,7 +1213,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            120.95222,24.795851,0
+            120.95218,24.79612,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2215,7 +1313,7 @@
       </Placemark>
       <Placemark>
         <name>六家火車站</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>六家線<br>輕軌紅線<br>新竹環狀線<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>六家線<br>輕軌紅線<br>新竹環狀線<br><br>站外轉乘：<br>新幹線<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_pink</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2254,7 +1352,7 @@
         <styleUrl>#msn_placemark_circle_yellow</styleUrl>
         <Point>
           <coordinates>
-            120.961342,24.819963,0
+            120.96185,24.82016,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2274,14 +1372,14 @@
         <styleUrl>#msn_placemark_circle_yellow</styleUrl>
         <Point>
           <coordinates>
-            120.944881,24.814394,0
+            120.94485,24.81479,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>新竹機務段</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>縱貫線車輛基地]]></description>
-        <styleUrl>#poly-0000FF-3000-115</styleUrl>
+        <name>新竹列車基地</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹機務段<br>v1.0c 改稱作新竹列車基地]]></description>
+        <styleUrl>#poly-4186F0-2000-77-nodesc</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
             <value>https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw</value>
@@ -2331,7 +1429,7 @@
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
-            120.94696,24.834375,0
+            120.94684,24.83426,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2351,7 +1449,7 @@
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
-            120.960846,24.820588,0
+            120.96118,24.82005,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2422,7 +1520,7 @@
       </Placemark>
       <Placemark>
         <name>金城</name>
-        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌紅線 (R11)<br><br>V1.0為高架車站<br><br>站外轉乘：<br>國道客運巴士]]></description>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌紅線 (R11)<br><br>V1.0為高架車站<br><br>站外轉乘：<br>國道巴士 (新竹國道轉運站)]]></description>
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2492,7 +1590,7 @@
       </Placemark>
       <Placemark>
         <name>六家 (紅線)</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌紅線<br><br>高架車站<br>轉乘：<br>六家車站<br>新竹環狀線<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>輕軌紅線<br><br>高架車站<br>轉乘：<br>六家線<br>新竹環狀線<br><br>站外轉乘：<br>新幹線<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2525,8 +1623,8 @@
         </Polygon>
       </Placemark>
       <Placemark>
-        <name>高鐵新竹站 (綠線)</name>
-        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" /><br><br>輕軌綠線 (G4)<br>v1.0b 為地下站<br><br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>六家車站<br>輕軌紅線<br>新竹環狀線<br><br><img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" />]]></description>
+        <name>六家 (綠線)</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" /><br><br>輕軌綠線 (G4)<br>v1.0b 為地下站<br><br>站外轉乘：<br>新幹線<br>六家線<br>輕軌紅線<br>新竹環狀線<br><br><img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2561,7 +1659,7 @@
       </Placemark>
       <Placemark>
         <name>縣政府</name>
-        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌綠線 (G8)<br><br>站外轉乘：<br>新竹縣客運轉運站，V1.0限定]]></description>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>輕軌綠線 (G8)<br><br>站外轉乘：<br>國道巴士 (竹北轉運站)，V1.0限定]]></description>
         <styleUrl>#msn_placemark_circle_green</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2674,7 +1772,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            120.950718,24.796143,0
+            120.9508,24.79597,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2690,7 +1788,7 @@
       </Placemark>
       <Placemark>
         <name>青草湖</name>
-        <description><![CDATA[輕軌綠線<br><br>端點站]]></description>
+        <description><![CDATA[輕軌綠線<br><br>站外轉乘：<br>青草湖公車總站]]></description>
         <styleUrl>#msn_placemark_circle_green</styleUrl>
         <Point>
           <coordinates>
@@ -2719,7 +1817,7 @@
         </ExtendedData>
         <Point>
           <coordinates>
-            120.953743,24.795501,0
+            120.95353,24.79632,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2745,7 +1843,7 @@
       </Placemark>
       <Placemark>
         <name>新竹科學園區</name>
-        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>新竹環狀線<br><br>站外轉乘：<br>國道客運巴士]]></description>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/WBd6CBWTEb7ne3T37aIlISdZQmKEvY2deOibXub3Kptuxmdv9fY66kK1eNWLuafOhmFCFGkm67dQZiXjOj2_eQWkF1VzfE9aPgGthBVp1kBShUqOdqYB_gjvCowfR5sTWYEcmWbS65zPvkET66NelNVR0PXYI7Tb7vPw2LapqA5bywHA8c8TU8u_6r1ospl0_O-0czhF9k5_Z1X2L-b27T0wWk6XBtDhY310XJyfke2jqc25GVLX99zehu_2zoY0L_-tcpVfR2O9HQRJugBoKtsx5AgSFbFRZGQtGTTcLDl9wIfTooRIdpTFBJsIFIuffaOh8c8ERsK2bV4TGFknSyJFQMVXWWLIG4M" height="200" width="auto" /><br><br>新竹環狀線<br><br>站外轉乘：<br>國道巴士 (竹科轉運站)]]></description>
         <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2794,7 +1892,7 @@
       </Placemark>
       <Placemark>
         <name>六家 (環狀線)</name>
-        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br><br>轉乘：<br>六家車站<br>輕軌紅線<br>站外轉乘：<br>台灣高鐵(高鐵新竹站)<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/Nt-I1VqDqVy60G2Av2wm7hilvVrVWJ2PTTOfUYFKhM_YN6Cs_bOHW8D8AtySSA0xDr2lzDnYFR5zQNZFAEjaMwuF-8_mzhFhFSshKxO6WmoBU0eAzXtx3r1feF7PHCSwkf8Z9rFCAr2khJ83lPK9OKaTD6n_pd-glvSIhVXD2wEkGgCPTUShBDWSnMHQU3hUJ9Lx7QILq4rbxd7lCtfI3ya6a1zhF9A_NT7H6N0HamxLhu4k3AM-fowqCN8wijGjnmDKa6wfhIFLlBb0R02YMRvnt2Q9t3Cygl8hvR_lZbDfRWmpyqiHQdKgowV5Udrq52Sk5XLkt4LjLFrU1p9JVn4-W7VsFwlYcXHZHw" height="200" width="auto" /><br><br>新竹環狀線<br><br>轉乘：<br>六家線<br>輕軌紅線<br>站外轉乘：<br>新幹線<br>輕軌綠線 (G4)<br><br><img src="https://lh6.googleusercontent.com/proxy/BUuNueUPaG_13g39zwp131CXo0_AnjMmLsvXyEYGwKUTYa5USujS94j1UNc0Pq_bpwMY-ZLgqpEhIaOkGJpaYKveJPES3oAWEFMrVaqnT2Ds-TKUE13arOWZf0v4qJiXpioxvZVtMCCnjGrJYLammdIjbHsZnpCUy3jQ5bFMezcnbRfERIckCnmRWGogfIB6b1kNt3wyJEXzmYbrTIo-5O6lB51g3Sn6RALM5RBfGUv7JSc3G-F_k18LEuDHEjh6Xx9KuUpd3LFQXUYh9SWv30utSE5-Bzb8GaP0VN2n_HbtS7YpyNqXKyt8lqUHxngmQS9a7_P6Qg56ejr_Jl0XvtFxDieVWp-F2VD58vKSbpyBZv0vLMy4" height="200" width="auto" />]]></description>
         <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <ExtendedData>
           <Data name="gx_media_links">
@@ -2878,7 +1976,7 @@
         <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
-            120.945568,24.83348,0
+            120.94569,24.83386,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2888,7 +1986,7 @@
         <styleUrl>#msn_placemark_circle_purple</styleUrl>
         <Point>
           <coordinates>
-            120.944624,24.815602,0
+            120.94432,24.8156,0
           </coordinates>
         </Point>
       </Placemark>
@@ -2943,7 +2041,7 @@
       <Placemark>
         <name>六家貨物線</name>
         <description><![CDATA[v1.0b 從地圖外的芎林運送建材到六家<br>預定2017年通勤化]]></description>
-        <styleUrl>#line-62AF44-4000</styleUrl>
+        <styleUrl>#msn_placemark_circle_green</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3008,7 +2106,7 @@
       <Placemark>
         <name>後湖支線</name>
         <description>輕軌紅線支線，通往後湖機廠及後湖橋站</description>
-        <styleUrl>#line-DB4436-2000</styleUrl>
+        <styleUrl>#msn_placemark_circle_red</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -3038,8 +2136,8 @@
       </Placemark>
       <Placemark>
         <name>後湖機廠</name>
-        <description>輕軌紅線機廠</description>
-        <styleUrl>#poly-DB4436-2000-77</styleUrl>
+        <description><![CDATA[輕軌紅線機廠<br>v1.0c 新增]]></description>
+        <styleUrl>#poly-FF0000-3000-115</styleUrl>
         <Polygon>
           <outerBoundaryIs>
             <LinearRing>
@@ -3099,7 +2197,7 @@
       <name>BRT</name>
       <Placemark>
         <name>新竹BRT一號線</name>
-        <description><![CDATA[v1.0b<br>博愛國中 -- 麻園 (專用道)<br>麻園 -- 鳳岡 (一般道路)]]></description>
+        <description><![CDATA[v1.0b<br>博愛國中 -- 麻園 (專用道)<br>麻園 -- 鳳岡 (一般道路)<br>v1.0c 延伸至竹北轉運站]]></description>
         <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -3137,6 +2235,16 @@
         </LineString>
       </Placemark>
       <Placemark>
+        <name>BRT竹北轉運站</name>
+        <description><![CDATA[v1.0c 延伸至此站<br>轉乘：<br>輕軌軌綠線 (縣政府站)<br>國道巴士 (竹北轉運站)]]></description>
+        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
+        <Point>
+          <coordinates>
+            121.014179,24.8248041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>BRT博愛國中站</name>
         <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
@@ -3147,7 +2255,7 @@
       </Placemark>
       <Placemark>
         <name>BRT下斗崙站</name>
-        <description>轉乘：縱貫線 下斗崙站</description>
+        <description><![CDATA[轉乘：<br>縱貫線 下斗崙站<br>輕軌綠線 下斗崙站]]></description>
         <styleUrl>#msn_placemark_circle_cyan</styleUrl>
         <Point>
           <coordinates>
@@ -3209,16 +2317,6 @@
         <Point>
           <coordinates>
             120.963035,24.85007,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>BRT縣政府站</name>
-        <description>v1.0c 延伸至此站</description>
-        <styleUrl>#msn_placemark_circle_cyan</styleUrl>
-        <Point>
-          <coordinates>
-            121.014179,24.8248041,0
           </coordinates>
         </Point>
       </Placemark>
