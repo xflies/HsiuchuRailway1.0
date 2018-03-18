@@ -862,7 +862,7 @@
       </Placemark>
       <Placemark>
         <name>輕軌紅線</name>
-        <description><![CDATA[南寮漁港 - 六家<br>前身為遭交通部退回的輕軌紅線 (http://web.hsinchu.gov.tw/uploaddowndoc?file=/pubhsinchu/Activities/%E7%AB%B9%E7%AB%B9%E8%8B%97%E8%BC%95%E8%BB%8C%E5%9C%B0%E6%96%B9%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1%2897%2E10%2E3%29%2Epdf&flag=doc)(竹中-樹林頭)，<br>現將其兩端分別延伸到南寮漁港及六家。<br>名為輕軌，但規格、軌距與台鐵相容，<br>與六家線共用六家車站。<br>V1.0 樹林頭以東路線全面高架。<br>v1.0b 六家--槺榔全面高架]]></description>
+        <description><![CDATA[南寮漁港 - 六家<br>前身為遭交通部退回的輕軌紅線 (http://web.hsinchu.gov.tw/uploaddowndoc?file=/pubhsinchu/Activities/%E7%AB%B9%E7%AB%B9%E8%8B%97%E8%BC%95%E8%BB%8C%E5%9C%B0%E6%96%B9%E8%AA%AA%E6%98%8E%E6%9C%83%E7%B0%A1%E5%A0%B1%2897%2E10%2E3%29%2Epdf&flag=doc)(竹中-樹林頭)，<br>現將其兩端分別延伸到南寮漁港及六家。<br>名為輕軌，但規格、軌距與台鐵相容，<br>與六家線共用六家車站。<br>V1.0 樹林頭以東路線全面高架。<br>v1.0b 六家--槺榔全面高架<br>v1.0c 新竹公園--新竹車站段以遊戲為基礎重繪路線]]></description>
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -1578,7 +1578,7 @@
         <styleUrl>#msn_placemark_circle_red</styleUrl>
         <Point>
           <coordinates>
-            121.03508,24.78888,0
+            121.03508,24.78887,0
           </coordinates>
         </Point>
       </Placemark>
